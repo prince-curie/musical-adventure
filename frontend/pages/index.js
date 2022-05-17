@@ -12,7 +12,7 @@ import {
 import { network } from '../constants'
 import ViewNfts from '../components/ViewNfts'
 import { initializeContract } from '../helpers';
-import { AppBar, Button, Grid, Typography } from '@mui/material'
+import { Alert, AppBar, Button, Grid, Snackbar, Typography } from '@mui/material'
 import AccountCircle from '@mui/icons-material/AccountCircle';
 
 export default function Home() {
